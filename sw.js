@@ -1,4 +1,3 @@
-// File Service Worker Minimalis untuk Syarat PWA Android
-self.addEventListener('fetch', function(event) {
-  // Biarkan aplikasi berjalan online seperti biasa
-});
+self.addEventListener('install', e => self.skipWaiting());
+self.addEventListener('activate', e => e.waitUntil(clients.claim()));
+self.addEventListener('fetch', e => {});
