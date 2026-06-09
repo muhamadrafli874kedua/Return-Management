@@ -1,7 +1,13 @@
 {
-  "short_name": "Return Management By M Rafli",
+  "short_name": "Return Management",
   "name": "Return Management By M Rafli",
   "icons": [
+    {
+      "src": "icon.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any"
+    },
     {
       "src": "icon.png",
       "type": "image/png",
@@ -9,7 +15,7 @@
       "purpose": "any"
     }
   ],
-  "start_url": "/",
+  "start_url": ".",
   "background_color": "#0D1117",
   "theme_color": "#0D1117",
   "display": "standalone",
