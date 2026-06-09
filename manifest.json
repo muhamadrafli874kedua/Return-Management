@@ -1,0 +1,17 @@
+{
+  "short_name": "Return Management By M Rafli",
+  "name": "Return Management",
+  "icons": [
+    {
+      "src": "https://cdn-icons-png.flaticon.com/512/2702/2702134.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#0D1117",
+  "theme_color": "#0D1117",
+  "display": "standalone",
+  "orientation": "portrait"
+}
